@@ -160,6 +160,24 @@
    `(c-annotation-face ((,class (:inherit font-lock-constant-face))))
 
    `(py-pseudo-keyword-face ((,class (:foreground ,zenburn-orange :weight bold))))
+
+   `(company-echo-common
+     ((,class (:foreground ,zenburn-red))))
+   `(company-preview
+     ((,class (:background ,zenburn-blue-5 :foreground ,zenburn-fg))))
+   `(company-preview-common
+     ((,class (:background ,zenburn-blue-5 :foreground ,zenburn-orange))))
+   `(company-preview-search
+     ((,class (:background ,zenburn-blue-4 :foreground ,zenburn-fg))))
+   `(company-tooltip
+     ((,class (:background ,zenburn-yellow :foreground ,zenburn-bg))))
+   `(company-tooltip-common
+     ((,class (:background ,zenburn-yellow :foreground ,zenburn-red-4))))
+   `(company-tooltip-common-selection
+     ((,class (:background ,zenburn-orange :foreground ,zenburn-red-4))))
+   `(company-tooltip-selection
+     ((,class (:background ,zenburn-yellow-2 :foreground ,zenburn-bg))))
+
    ;;; customization
    `(custom-button ((t (:background ,zenburn-bg+1 :foreground ,zenburn-fg
                                     :box (:line-width 2 :style released-button)))))
