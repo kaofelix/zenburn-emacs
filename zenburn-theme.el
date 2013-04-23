@@ -571,7 +571,15 @@
    `(wl-highlight-summary-displaying-face ((,class (:underline t :weight bold))))
 
    ;; which-func-mode
-   `(which-func ((,class (:foreground ,zenburn-green+1)))))
+   `(which-func ((,class (:foreground ,zenburn-green+1))))
+
+   ;; git-gutter
+   `(git-gutter:added ((,class (:foreground ,zenburn-green+1 :weight bold))))
+   `(git-gutter:deleted ((,class (:foreground ,zenburn-red-2 :weight bold))))
+   `(git-gutter:modified ((,class (:foreground ,zenburn-magenta :weight bold))))
+   `(git-gutter-fr:added ((,class (:foreground ,zenburn-green+1 :weight bold))))
+   `(git-gutter-fr:deleted ((,class (:foreground ,zenburn-red-2 :weight bold))))
+   `(git-gutter-fr:modified ((,class (:foreground ,zenburn-magenta :weight bold)))))
 
   ;;; custom theme variables
   (custom-theme-set-variables
