@@ -259,8 +259,8 @@
    `(eshell-ls-symlink ((,class (:foreground ,zenburn-cyan :weight bold))))
 
    ;; flymake
-   `(flymake-errline ((,class (:foreground ,zenburn-red-1 :weight bold :underline t))))
-   `(flymake-warnline ((,class (:foreground ,zenburn-yellow-1 :weight bold :underline t))))
+   `(flymake-errline ((,class (:background ,zenburn-red-4 :foreground nil))))
+   `(flymake-warnline ((,class (:underline ,zenburn-yellow-1 :background nil :foreground nil))))
 
    ;; flyspell
    `(flyspell-duplicate ((,class (:foreground ,zenburn-yellow-1 :weight bold :underline t))))
