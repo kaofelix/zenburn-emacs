@@ -134,16 +134,17 @@
 
    `(menu ((,class (:foreground ,zenburn-fg :background ,zenburn-bg))))
    `(minibuffer-prompt ((,class (:foreground ,zenburn-yellow))))
+
    `(mode-line
-     ((,class (:foreground ,zenburn-green+1
-                           :background ,zenburn-bg-1
+     ((,class (:foreground ,zenburn-mode-line-fg
+                           :background ,zenburn-mode-line-bg
+                           :box (:line-width -1 :style released-button)))))
+   `(mode-line-inactive
+     ((,class (:foreground ,zenburn-mode-line-inactive-fg
+                           :background ,zenburn-mode-line-inactive-bg
                            :box (:line-width -1 :style released-button)))))
    `(mode-line-buffer-id ((,class (:foreground ,zenburn-yellow :weight bold))))
-   `(mode-line-inactive
-     ((,class (:foreground ,zenburn-green-1
-                           :background ,zenburn-bg-05
-                           :box (:line-width -1 :style released-button)))))
-   `(region ((,class (:background ,zenburn-bg-1))))
+   `(region ((,class (:foreground ,zenburn-region-fg :background ,zenburn-region-bg))))
    `(secondary-selection ((,class (:background ,zenburn-bg+2))))
    `(trailing-whitespace ((,class (:background ,zenburn-red))))
    `(vertical-border ((,class (:foreground ,zenburn-fg))))
