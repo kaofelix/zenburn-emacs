@@ -361,6 +361,13 @@
    `(ido-subdir ((,class (:foreground ,zenburn-yellow))))
 
    ;; js2-mode
+   `(js2-warning ((,class (:underline ,zenburn-orange))))
+   `(js2-error ((,class (:foreground ,zenburn-red :weight bold))))
+   `(js2-jsdoc-tag ((,class (:foreground ,zenburn-green-1))))
+   `(js2-jsdoc-type ((,class (:foreground ,zenburn-green+2))))
+   `(js2-jsdoc-value ((,class (:foreground ,zenburn-green+3))))
+   `(js2-function-param ((,class (:foreground, zenburn-green+3))))
+   `(js2-external-variable ((,class (:foreground ,zenburn-orange))))
    `(js2-warning-face ((,class (:underline ,zenburn-orange))))
    `(js2-error-face ((,class (:foreground ,zenburn-red :weight bold))))
    `(js2-jsdoc-tag-face ((,class (:foreground ,zenburn-green-1))))
