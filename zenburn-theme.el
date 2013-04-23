@@ -579,6 +579,12 @@
    ;; which-func-mode
    `(which-func ((,class (:foreground ,zenburn-green+1))))
 
+
+   ;; auto-highlight-symbol-mode
+   `(ahs-definition-face ((,class (:background ,zenburn-bg+2 :underline t))))
+   `(ahs-face ((,class (:background ,zenburn-bg+2))))
+   `(ahs-plugin-defalt-face ((,class (:background ,zenburn-bg+2))))
+
    ;; git-gutter
    `(git-gutter:added ((,class (:foreground ,zenburn-green+1 :weight bold))))
    `(git-gutter:deleted ((,class (:foreground ,zenburn-red-2 :weight bold))))
