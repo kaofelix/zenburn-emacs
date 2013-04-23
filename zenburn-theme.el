@@ -43,7 +43,7 @@
 ;; Jani Nurminen created the original theme for vim on such this port
 ;; is based.
 ;;
-;;; Code
+;;; Code:
 (deftheme zenburn "The Zenburn color theme")
 
 (let ((class '((class color) (min-colors 89)))
