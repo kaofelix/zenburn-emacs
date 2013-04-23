@@ -212,6 +212,13 @@
    `(diff-file-header
      ((,class (:background ,zenburn-bg+2 :foreground ,zenburn-fg :bold t))))
 
+   ;; Smerge
+   `(smerge-refined-change ((,class (:background "#5f5f5f"))))
+   `(smerge-mine ((,class (:foreground ,zenburn-blue+1))))
+   `(smerge-other ((,class (:foreground ,zenburn-green+4))))
+   `(smerge-base ((,class (:foreground ,zenburn-orange))))
+
+
    ;; eshell
    `(eshell-prompt ((,class (:foreground ,zenburn-yellow :weight bold))))
    `(eshell-ls-archive ((,class (:foreground ,zenburn-red-1 :weight bold))))
