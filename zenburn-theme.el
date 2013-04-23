@@ -64,6 +64,8 @@
       (zenburn-red-3 "#9c6363")
       (zenburn-red-4 "#8c5353")
       (zenburn-orange "#dfaf8f")
+      (zenburn-yellow+2 "#efdcbc")
+      (zenburn-yellow+1 "#dfdfbf")
       (zenburn-yellow "#f0dfaf")
       (zenburn-yellow-1 "#e0cf9f")
       (zenburn-yellow-2 "#d0bf8f")
@@ -143,20 +145,21 @@
    `(font-lock-builtin-face ((,class (:foreground ,zenburn-blue))))
    `(font-lock-comment-face ((,class (:foreground ,zenburn-green))))
    `(font-lock-comment-delimiter-face ((,class (:foreground ,zenburn-green))))
-   `(font-lock-constant-face ((,class (:foreground ,zenburn-green+4))))
+   `(font-lock-constant-face ((,class (:foreground ,zenburn-red+1 :weight bold))))
    `(font-lock-doc-face ((,class (:foreground ,zenburn-green+1))))
    `(font-lock-doc-string-face ((,class (:foreground ,zenburn-blue+1))))
-   `(font-lock-function-name-face ((,class (:foreground ,zenburn-blue))))
+   `(font-lock-function-name-face ((,class (:foreground ,zenburn-yellow))))
    `(font-lock-keyword-face ((,class (:foreground ,zenburn-yellow :weight bold))))
    `(font-lock-negation-char-face ((,class (:foreground ,zenburn-fg))))
    `(font-lock-preprocessor-face ((,class (:foreground ,zenburn-blue))))
    `(font-lock-string-face ((,class (:foreground ,zenburn-red))))
-   `(font-lock-type-face ((,class (:foreground ,zenburn-blue))))
-   `(font-lock-variable-name-face ((,class (:foreground ,zenburn-orange))))
+   `(font-lock-type-face ((,class (:foreground ,zenburn-yellow+1 :weight bold))))
+   `(font-lock-variable-name-face ((,class (:foreground ,zenburn-yellow+2))))
    `(font-lock-warning-face ((,class (:foreground ,zenburn-yellow-1 :weight bold :underline t))))
 
    `(c-annotation-face ((,class (:inherit font-lock-constant-face))))
 
+   `(py-pseudo-keyword-face ((,class (:foreground ,zenburn-orange :weight bold))))
    ;;; external
 
    ;; full-ack
