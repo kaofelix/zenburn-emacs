@@ -94,12 +94,12 @@
   (custom-theme-set-faces
    'zenburn
    '(button ((t (:underline t))))
-   `(link ((,class (:foreground ,zenburn-yellow :underline t :weight bold))))
-   `(link-visited ((,class (:foreground ,zenburn-yellow-2 :underline t :weight normal))))
+   `(link ((,class (:foreground ,zenburn-yellow :underline t))))
+   `(link-visited ((,class (:foreground ,zenburn-yellow-2 :underline t))))
 
    ;;; basic coloring
    `(default ((,class (:foreground ,zenburn-fg :background ,zenburn-bg))))
-   `(cursor ((,class (:foreground ,zenburn-fg))))
+   `(cursor ((,class (:background ,zenburn-fg :foreground ,zenburn-bg))))
    `(escape-glyph-face ((,class (:foreground ,zenburn-red))))
    `(fringe ((,class (:foreground ,zenburn-fg :background ,zenburn-bg+1))))
    `(header-line ((,class (:foreground ,zenburn-yellow
