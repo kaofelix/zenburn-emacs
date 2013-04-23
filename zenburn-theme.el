@@ -395,6 +395,9 @@
    ;; magit
    `(magit-section-title ((,class (:foreground ,zenburn-yellow :weight bold))))
    `(magit-branch ((,class (:foreground ,zenburn-orange :weight bold))))
+   `(magit-diff-add ((,class (:foreground ,zenburn-green+4))))
+   `(magit-diff-del ((,class (:foreground ,zenburn-red))))
+   `(magit-log-sha1 ((,class (:foreground ,zenburn-orange))))
 
    ;; message-mode
    `(message-cited-text ((,class (:inherit font-lock-comment))))
@@ -524,7 +527,7 @@
 
    ;; show-paren
    `(show-paren-mismatch ((,class (:foreground ,zenburn-red-3 :background ,zenburn-bg :weight bold))))
-   `(show-paren-match ((,class (:foreground ,zenburn-blue-1 :background ,zenburn-bg :weight bold))))
+   `(show-paren-match ((,class (:foreground ,zenburn-yellow :background ,zenburn-bg :weight bold))))
 
    ;; SLIME
    `(slime-repl-inputed-output-face ((,class (:foreground ,zenburn-red))))
