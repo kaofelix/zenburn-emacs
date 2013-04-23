@@ -254,7 +254,7 @@
    `(eshell-ls-executable ((,class (:foreground ,zenburn-red+1 :weight bold))))
    `(eshell-ls-unreadable ((,class (:foreground ,zenburn-fg))))
    `(eshell-ls-missing ((,class (:inherit font-lock-warning))))
-   `(eshell-ls-product ((,class (:inherit font-lock-doc))))
+   `(eshell-ls-product ((,class (:inherit font-lock-doc-face))))
    `(eshell-ls-special ((,class (:foreground ,zenburn-yellow :weight bold))))
    `(eshell-ls-symlink ((,class (:foreground ,zenburn-cyan :weight bold))))
 
