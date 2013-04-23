@@ -160,6 +160,28 @@
    `(c-annotation-face ((,class (:inherit font-lock-constant-face))))
 
    `(py-pseudo-keyword-face ((,class (:foreground ,zenburn-orange :weight bold))))
+   ;;; customization
+   `(custom-button ((t (:background ,zenburn-bg+1 :foreground ,zenburn-fg
+                                    :box (:line-width 2 :style released-button)))))
+   `(custom-button-pressed ((t (:background ,zenburn-bg+1 :foreground ,zenburn-fg
+                                            :box (:line-width 2 :style pressed-button)))))
+   `(custom-changed ((,class (:foreground ,zenburn-blue))))
+   `(custom-link ((,class (:foreground ,zenburn-yellow :underline t))))
+   `(custom-tag ((,class (:foreground ,zenburn-orange :weight bold))))
+   `(custom-group-tag ((,class (:foreground ,zenburn-yellow :weight bold))))
+   `(custom-group-tag-1 ((,class (:foreground ,zenburn-red+1 :weight bold))))
+   `(custom-invalid ((,class (:inherit font-lock-warning))))
+   `(custom-modified ((,class (:foreground ,zenburn-yellow+1 :weight bold))))
+   `(custom-rogue ((,class (:inhrit font-lock-warning))))
+   `(custom-saved ((,class (:underline t))))
+   `(custom-set ((,class (:inverse-video t :foreground ,zenburn-blue))))
+   `(custom-state ((,class (:foreground ,zenburn-green))))
+   `(custom-variable-button ((,class (:weight bold :underline t))))
+   `(custom-variable-tag ((,class (:foreground ,zenburn-orange :weight bold))))
+
+   ;;; info
+   `(info-menu-star ((,class (:foreground ,zenburn-fg))))
+
    ;;; external
 
    ;; full-ack
