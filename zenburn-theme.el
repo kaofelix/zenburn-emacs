@@ -83,7 +83,14 @@
       (zenburn-blue-3 "#5c888b")
       (zenburn-blue-4 "#4c7073")
       (zenburn-blue-5 "#366060")
-      (zenburn-magenta "#dc8cc3"))
+      (zenburn-magenta "#dc8cc3")
+      (zenburn-region-fg "#71d3b4")
+      (zenburn-region-bg "#233323")
+      (zenburn-mode-line-fg "#acbc90")
+      (zenburn-mode-line-bg "#1e2320")
+      (zenburn-mode-line-inactive-bg  "#2e3330")
+      (zenburn-mode-line-inactive-fg  "#88b090"))
+
   (custom-theme-set-faces
    'zenburn
    '(button ((t (:underline t))))
